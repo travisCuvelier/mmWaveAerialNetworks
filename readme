@@ -15,8 +15,12 @@ Note that we will NOT help to debug user-generated code that was not included in
 If, however, you notice a bug in our code, please be so kind to contact Travis Cuvelier at tcuvelier@utexas.edu.
 
 3) The software package is supplied "as is", without any accompanying support services, maintenance, or future updates. 
-We make no warranties, explicit or implicit, that the software contained in this package is free of error or that it will meet your requirements for any particular application. 
-It should not be relied on for any purpose where incorrect results could result in loss of property, personal injury, liability or whatsoever. 
-If you do use our software for any such purpose, it is at your own risk. 
-The authors disclaim all liability of any kind, either direct or consequential, resulting from your use of these programs.
+
+4) We make no warranties, explicit or implicit, that the software contained in this package is free of error or that it will meet your requirements for any particular application. 
+
+5) It should not be relied on for any purpose where incorrect results could result in loss of property, personal injury, liability or whatsoever. 
+
+6) If you do use our software for any such purpose, it is at your own risk. 
+
+7) The authors disclaim all liability of any kind, either direct or consequential, resulting from your use of these programs.
 
