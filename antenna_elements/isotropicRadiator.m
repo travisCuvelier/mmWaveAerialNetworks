@@ -13,7 +13,7 @@ classdef isotropicRadiator< handle
 
         %This function evaluates the radient intensity pattern of the
         %constructed isotropic radiating element at a given azimuth and 
-        %elevation. Of course, since its isotropic, it radiates in all
+        %elevation. Of course, since it's isotropic, it radiates in all
         %directions. 
         
         %Inputs: 
