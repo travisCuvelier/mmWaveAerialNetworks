@@ -67,7 +67,7 @@ classdef uplinkUser < handle
             obj.elementTypeStr = elementTypeStr;
             
             dimString = sprintf('%dX%d_iis_%f_meters_', obj.nAntennasY, obj.nAntennasZ, obj.interElementSpacing);
-            fstring = strcat('antennaData/gainNormalizationMatrix_',dimString);
+            fstring = strcat('aerial_nodes/antennaData/gainNormalizationMatrix_',dimString);
             fstring = strcat(fstring,obj.elementTypeStr);
                
             try

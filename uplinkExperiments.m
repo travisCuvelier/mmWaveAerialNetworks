@@ -11,7 +11,7 @@ saveFileName = 'myExperiment';
 %% Waveform parameters
 %you can change these params
 
-f = 38.5e9; %all calculations are done wrt. to center frequency
+f = 42.3e9; %all calculations are done wrt. to center frequency
             %this is, of course, an approximation.
 lambda = 3e8/f;
 bandwidth = 2e9; %passband
@@ -120,7 +120,7 @@ sumRateCapacityMMSE = zeros(numTrials,maxNumUsers);
 
 for monteCarloTrial = 1:numTrials
     if(mod(monteCarloTrial,50)==0)
-        fprintf('%d',monteCarloTrial)
+        fprintf('Trial: %d \n',monteCarloTrial)
     end
     
     
