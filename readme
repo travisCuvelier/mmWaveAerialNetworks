@@ -34,7 +34,7 @@ How to use this software:
 
 4) To run experiments that estimate achievable rates in the uplink scenario described in our paper, add mmWaveAerialNetworks and all subfolders to your path in MATLAB. The way I do this is by navigating to 
 the directory containing "mmWaveAerialNetworks", right clicking on the folder, and selecting "Add to Path" and then selecting "Selected Folders and Subfolders". Open the script "uplinkExperiments.m" 
-in the "mmWaveAerialNetworks" folder, read the comments, set your parameters, and run the thing. 
+in the "mmWaveAerialNetworks" folder, read the comments, set your parameters, and run the thing. The results for every iteration will appear in the "mmWaveAerialNetworks/results" as .mat files.
 
 6) You can find scripts to compute atmospheric specific attenuation in "mmWaveAerialNetworks/atmospheric_specific_attenuation_formulae". You will find the functions in "mmWaveAerialNetworks/meteorological_conversions" 
 useful. Furthermore, you can find an atmospheric model from the ITU in "mmWaveAerialNetworks/reference_atmospheres".
