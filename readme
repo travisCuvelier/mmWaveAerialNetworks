@@ -23,3 +23,18 @@ If you do use our software for any such purpose, it is at your own risk.
 
 6) The authors (Travis Cuvelier and Robert Heath Jr.), as well as the University of Texas at Austin, disclaim all liability of any kind, either direct or consequential, resulting from your use of these programs.
 
+How to use this software:
+(This guide is incomplete and under construction)
+
+1) At least skim the paper. Specifically, read the "Analytical Framework" section. 
+
+2) Clone the repo via calling: git clone https://github.com/travisCuvelier/mmWaveAerialNetworks.git
+
+3) The folder "mmWaveAerialNetworks" will appear in your directory.
+
+4) To run experiments that estimate achievable rates in the uplink scenario described in our paper, add mmWaveAerialNetworks and all subfolders to your path in MATLAB. The way I do this is by navigating to 
+the directory containing "mmWaveAerialNetworks", right clicking on the folder, and selecting "Add to Path" and then selecting "Selected Folders and Subfolders". Open the script "uplinkExperiments.m" 
+in the "mmWaveAerialNetworks" folder, read the comments, set your parameters, and run the thing. 
+
+6) You can find scripts to compute atmospheric specific attenuation in "mmWaveAerialNetworks/atmospheric_specific_attenuation_formulae". You will find the functions in "mmWaveAerialNetworks/meteorological_conversions" 
+useful. Furthermore, you can find an atmospheric model from the ITU in "mmWaveAerialNetworks/reference_atmospheres".
