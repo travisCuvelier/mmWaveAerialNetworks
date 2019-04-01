@@ -28,7 +28,7 @@ How to use this software:
 
 1) At least skim the paper. Specifically, read the "Analytical Framework" section. 
 
-2) Clone the repo via calling: git clone https://github.com/travisCuvelier/mmWaveAerialNetworks.git
+2) Clone the repo via calling on the terminal: git clone https://github.com/travisCuvelier/mmWaveAerialNetworks.git
 
 3) The folder "mmWaveAerialNetworks" will appear in your directory.
 
